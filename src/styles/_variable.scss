@@ -1,0 +1,73 @@
+// default colors
+$primary: #007bff !default;
+$secondary: #6c757d !default;
+$success: #28a745 !default;
+$danger: #dc3545 !default;
+$warning: #ffc107 !default;
+$info: #17a2b8 !default;
+$light: #f8f9fa !default;
+$dark: #343a40 !default;
+
+:root {
+  --primary: $primary;
+  --secondary: $secondary;
+  --success: $success;
+  --danger: $danger;
+  --warning: $warning;
+  --info: $info;
+  --light: $light;
+  --dark: $dark;
+}
+
+// fonts
+$font-family-sans-serif: "Roboto", sans-serif !default;
+$font-family-monospace: "Roboto Mono", monospace !default;
+
+// font sizes
+$font-size-base: 1rem !default;
+$font-size-lg: 1.25rem !default;
+$font-size-sm: 0.875rem !default;
+
+// font weights
+$font-weight-light: 300 !default;
+$font-weight-normal: 400 !default;
+$font-weight-bold: 700 !default;
+
+// line heights
+$line-height-base: 1.5 !default;
+$line-height-sm: 1.5 !default;
+$line-height-lg: 1.5 !default;
+
+// border radius
+$border-radius: 0.25rem !default;
+$border-radius-lg: 0.3rem !default;
+$border-radius-sm: 0.2rem !default;
+
+// border width
+$border-width: 1px !default;
+
+// grid breakpoints
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px) !default;
+
+// grid columns
+$grid-columns: 12 !default;
+
+// grid gutter width
+$grid-gutter-width: 1.5rem !default;
+
+// z-index master list
+$zindex-dropdown: 1000 !default;
+$zindex-sticky: 1020 !default;
+$zindex-fixed: 1030 !default;
+$zindex-modal-backdrop: 1040 !default;
+$zindex-modal: 1050 !default;
+$zindex-popover: 1060 !default;
+$zindex-tooltip: 1070 !default;
+
+// reduced animation
